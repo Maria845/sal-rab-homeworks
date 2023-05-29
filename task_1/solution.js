@@ -11,7 +11,7 @@ function addInCartMessage(title, price) {
     message += " ";
     message += productPrice;
     message += " ";
-    message += "теперь в корзине! ";
+    message += "теперь в корзине!";
     console.log(message);
     return message;
 }
@@ -35,7 +35,7 @@ function addInCartSumChange(sum, delta) {
 
     let newSum = oldSum + difference;
     let newSumText = newSum + ' ₽';
-    newSumText = ' newSum + ' ₽' ';
+    newSumText = `${newSum} ₽`;
     return newSumText;
 }
 
