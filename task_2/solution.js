@@ -16,6 +16,7 @@ function calcShipping(sum, min, shipping) {
 		shippingSum = shippingPrice
 	};
 	// Конец решения задания №2.1.
+	
 
 	return shippingSum;
 }
@@ -28,7 +29,7 @@ function calcDiscount(sum, min, discount) {
 	// Задание №2.2. Рассчитать скидку
 
 	// создайте переменную 
-	let = discountSum;
+	let discountSum;
 
 	// если productsSum больше или равно discountMinSum,
 	// то присвойте discountSum значение discountPart процентов от productsSum,
